@@ -1,0 +1,83 @@
+.Team-T-card-container {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #454545;
+    height: 220px;
+    margin: 20px;
+    width: 350px;
+}
+
+*, body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Team-T-top-container {
+    background-color: #c8f2f2;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    height: 110px;
+    position: relative;
+}
+.no-logo-logo {
+    align-items: center;
+    background-color: #c9eeff;
+    border-radius: 500px;
+    color: #454545;
+    font-size: 50px;
+    font-weight: 700;
+    height: 100px;
+    justify-content: center;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+}
+.no-logo-logo, .Team-T-bottom-container {
+    display: flex;
+    font-family: Open Sans, sans-serif;
+}
+.Team-T-top-container h1 {
+    color: #454545;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: auto;
+    padding: 10px 15px 10px 10px;
+    text-align: right;
+    text-transform: capitalize;
+    width: 100%;
+}
+.Team-T-bottom-container {
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.Team-T-bottom-text-container {
+    color: #454545;
+    font-weight: 600;
+    text-align: right;
+}
+p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.Team-T-bottom-text-container img {
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+.button-know-more {
+    background-color: #c8f2f2;
+    border: none;
+    border-radius: 4px;
+    color: #454545;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 10px 0 auto 10px;
+    margin-left: auto !important;
+    padding: 8px 10px;
+}
